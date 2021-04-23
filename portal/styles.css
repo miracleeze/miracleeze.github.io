@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&family=Raleway&display=swap");
+    h1,
+    footer {
+      font-family: Cuprum, sans-serif;
+      color: #E8F1F2;
+      background-color: #0d1822;
+      padding: 1.1rem;
+      border-radius: 15px;
+      text-align: center;
+    }
+    
+    body {
+      font-size:19px;
+      line-height: 1.5;
+}
+
+ h1,h3, ul,footer{
+    margin: 1.25rem auto;
+    max-width: 720px;
+ }
+h3{
+    font-size: 32px;
+    margin-top: 2em;
+    border-bottom: #13293D solid 2px;
+    font-family: Raleway, Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+ footer {
+font-size: 13px;
+}
+img{
+    float:right;
+    box-shadow:5px 10px 18px;
+}
+ul li {
+   font-family: Cuprum, sans-serif;
+}
+a: link {
+    text-decoration:none;
+    color:blue solid;
+}
