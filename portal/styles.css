@@ -39,3 +39,7 @@ ul li {
     text-decoration:none;
     color:#E8F1F2;
 }
+a:hover{
+  color: goldenrod;
+
+}
