@@ -19,8 +19,11 @@
     margin: 1.25rem auto;
     max-width: 720px;
  }
+ h1{
+   font-size: 1.5rem;
+ }
 h2{
-    font-size: 32px;
+    font-size: 1rem;
     margin-top: 2em;
     border-bottom: #13293D solid 2px;
     font-family: Raleway, Helvetica, "Helvetica Neue", Arial, sans-serif;
