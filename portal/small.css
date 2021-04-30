@@ -5,7 +5,6 @@
       color: #E8F1F2;
       background-color: #0d1822;
       padding: 1.1rem;
-      border-radius: 15px;
       text-align: center;
     }
     
@@ -31,9 +30,9 @@ h2{
  footer {
 font-size: 13px;
 }
-img{
-    float:right;
-    box-shadow:5px 10px 18px;
+h1 img{
+    width: 200px;
+    height: auto;
 }
 ul li {
    font-family: Cuprum, sans-serif;

@@ -6,4 +6,13 @@
     h2{
         font-size: 1.5rem;
     }
+    h1, footer{
+        border-radius: 18px;
+    }
+    h1 img{
+        float:right;
+        box-shadow:5px 10px 18px;
+        border-radius: 0,10px, 0 0;
+    }
+
 }
