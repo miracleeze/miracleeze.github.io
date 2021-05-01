@@ -18,6 +18,14 @@
     margin: 1.25rem auto;
     max-width: 720px;
  }
+ main {
+        display: grid;
+        grid-template-columns: 1fr;
+ }
+ article {
+     max-width: 95%;
+     margin: 0 auto;
+ }
  h1{
    font-size: 1.5rem;
  }
@@ -29,6 +37,10 @@ h2{
 }
  footer {
 font-size: 13px;
+}
+article img {
+    max-width: 100%;
+    margin-top: 0.5rem;
 }
 h1 img{
     width: 200px;
