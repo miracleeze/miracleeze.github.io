@@ -6,6 +6,7 @@
       color: #E8F1F2;
       background-color: #0d1822;
       padding: 1.1rem;
+      max-width: 750px;
       text-align: center;
     }
     
@@ -13,7 +14,6 @@
       font-size:19px;
       background-color:lightgray;
       font-family: "Heebo", Helvetica, sans-serif;
-      max-width: 800px;
       margin: 0 auto;
 }
 header h1, 
@@ -23,6 +23,8 @@ header h2 {
  main {
         display: grid;
         grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap:2em;
  }
  h4{
    margin: 0.5em 0;
@@ -35,6 +37,7 @@ h3{
     background-color: #13293D;
     border-radius: 0.5em 0.5em 0 0;
     padding: 0.3em;
+    max-width: 200px;
     text-align: center;
 }
 section{
@@ -44,6 +47,7 @@ section{
   background-color:darkgray;
   padding: 0.1em;
   height: 95%;
+  max-width: 200px;
 }
  footer {
 font-size: 13px;
