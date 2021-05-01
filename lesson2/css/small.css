@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap');
+    h1, 
     header,
     footer {
       font-family: "Heebo", sans-serif;
@@ -15,48 +16,46 @@
       max-width: 800px;
       margin: 0 auto;
 }
-header h1, header h2 {
+header h1, 
+header h2 {
   margin: 1.25rem;
 }
-
  main {
         display: grid;
         grid-template-columns: 1fr;
  }
- article {
-     max-width: 95%;
-     margin: 0 auto;
- }
  h4{
    margin: 0.5em 0;
+   text-align: center;
  }
 h3{
     font-weight: 700;
-    margin:0.5em 0.25em 0 0.25em;
-    color: azure;
+    margin:0.5em;
+    color: white;
     background-color: #13293D;
     border-radius: 0.5em 0.5em 0 0;
-    padding: 0.2em 0.2em 0 0.2em;
+    padding: 0.3em;
+    text-align: center;
 }
 section{
-  color: aliceblue;
-  border: 0.2em solid rgb(53, 33, 33);
-  margin: 0 0.2em 0.3em 0.3em;
+  color: whitesmoke;
+  border: 0.3em solid rgb(53, 33, 33);
+  margin: 0.2em;
   background-color:darkgray;
-  padding: 0.3em 0.3em 1em 0.3em;
-  height: 80%;
+  padding: 0.1em;
+  height: 95%;
 }
  footer {
 font-size: 13px;
 padding: 2px 20px;
 }
-article img {
+ img {
     max-width: 100%;
-    margin-top: 0.8rem;
+    margin-top: 0.2rem;
 }
  a:link {
     text-decoration:none;
-    color:#E8F1F2;
+    color:blue;
 }
 section a:hover{
   color: green;
