@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap');
-    h1,
+    header,
     footer {
-      font-family: Cuprum, sans-serif;
+      font-family: "Heebo", sans-serif;
       color: #E8F1F2;
       background-color: #0d1822;
       padding: 1.1rem;
@@ -10,14 +10,15 @@
     
     body {
       font-size:19px;
-      line-height: 1.5;
       background-color:lightgray;
+      font-family: "Heebo", Helvetica, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+}
+header h1, header h2 {
+  margin: 1.25rem;
 }
 
- h1,h2, ul,footer{
-    margin: 1.25rem auto;
-    max-width: 720px;
- }
  main {
         display: grid;
         grid-template-columns: 1fr;
@@ -26,34 +27,38 @@
      max-width: 95%;
      margin: 0 auto;
  }
- h1{
-   font-size: 1.5rem;
+ h4{
+   margin: 0.5em 0;
  }
-h2{
-    font-size: 1rem;
-    margin-top: 2em;
-    border-bottom: #13293D solid 2px;
-    font-family: Raleway, Helvetica, "Helvetica Neue", Arial, sans-serif;
+h3{
+    font-weight: 700;
+    margin:0.5em 0.25em 0 0.25em;
+    color: azure;
+    background-color: #13293D;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.2em 0.2em 0 0.2em;
+}
+section{
+  color: aliceblue;
+  border: 0.2em solid rgb(53, 33, 33);
+  margin: 0 0.2em 0.3em 0.3em;
+  background-color:darkgray;
+  padding: 0.3em 0.3em 1em 0.3em;
+  height: 80%;
 }
  footer {
 font-size: 13px;
+padding: 2px 20px;
 }
 article img {
     max-width: 100%;
-    margin-top: 0.5rem;
-}
-h1 img{
-    width: 200px;
-    height: auto;
-}
-ul li {
-   font-family: Cuprum, sans-serif;
+    margin-top: 0.8rem;
 }
  a:link {
     text-decoration:none;
     color:#E8F1F2;
 }
-a:hover{
-  color: goldenrod;
+section a:hover{
+  color: green;
 
 }
