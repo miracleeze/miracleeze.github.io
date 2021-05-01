@@ -1,57 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap');
-    h1, 
-    header,
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 2em;
+ }
+h1, 
     footer {
       font-family: "Heebo", sans-serif;
-      color: #E8F1F2;
-      background-color: #0d1822;
-      padding: 1.1rem;
-      max-width: 750px;
-      text-align: center;
     }
-    
     body {
       font-size:19px;
       background-color:lightgray;
       font-family: "Heebo", Helvetica, sans-serif;
+      max-width: 900px;
       margin: 0 auto;
+}
+header,
+footer {
+color: #E8F1F2;
+background-color: #0d1822;
+padding-bottom: 10px;
+text-align: center;
+border-radius: 15px;
+margin-bottom: 18px;
 }
 header h1, 
 header h2 {
-  margin: 1.25rem;
+  margin-left:1rem;
 }
- main {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-        grid-gap:2em;
- }
- h4{
-   margin: 0.5em 0;
-   text-align: center;
- }
 h3{
-    font-weight: 700;
+    font-weight: 800;
     margin:0.5em;
     color: white;
     background-color: #13293D;
     border-radius: 0.5em 0.5em 0 0;
-    padding: 0.3em;
-    max-width: 200px;
+    padding: 0.2em;
     text-align: center;
+}
+div {
+   border-radius: 15px 15px 0 0;
+   background-color: #13293D;
 }
 section{
   color: whitesmoke;
-  border: 0.3em solid rgb(53, 33, 33);
+  border: 0.3em solid #13293D;
   margin: 0.2em;
   background-color:darkgray;
-  padding: 0.1em;
-  height: 95%;
-  max-width: 200px;
+  padding: 0.5em;
+  height: 90%;
+  width: 195px;
 }
  footer {
 font-size: 13px;
-padding: 2px 20px;
+padding: 2px;
 }
  img {
     max-width: 100%;
