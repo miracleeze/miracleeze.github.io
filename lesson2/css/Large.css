@@ -3,6 +3,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
-        grid-gap: 2em;
+        grid-gap: 20px;
     }   
 }
