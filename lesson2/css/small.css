@@ -29,15 +29,6 @@ header h1,
 header h2 {
   margin-left:1rem;
 }
-h3{
-    font-weight: 800;
-    margin:0.5em;
-    color: white;
-    background-color: #13293D;
-    border-radius: 0.5em 0.5em 0 0;
-    padding: 0.2em;
-    text-align: center;
-}
 div {
    border-radius: 15px 15px 0 0;
    background-color: #13293D;
@@ -55,13 +46,13 @@ section{
 font-size: 13px;
 padding: 2px;
 }
- img {
-    max-width: 100%;
-    margin-top: 0.2rem;
+img {
+  max-width: 100%;
+  margin-top: 0.5rem;
 }
  a:link {
     text-decoration:none;
-    color:blue;
+    color:whitesmoke;
 }
 section a:hover{
   color: green;
