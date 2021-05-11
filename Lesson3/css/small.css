@@ -30,14 +30,14 @@ header img {
   padding-top: 1.35rem;
   padding-bottom: -1rem;
   margin-top: -1rem;
-  margin-left: 2rem;
+  margin-left: 0.3rem;
 }
 header,
 main,
 nav,
 footer {
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 80rem;
 }
 nav {
   margin-top: -1.2rem;
