@@ -102,3 +102,6 @@ footer {
   border-radius: 15px;
   margin-bottom: 15px;
 }
+footer a:hover {
+  color: #fffaf0;
+}
