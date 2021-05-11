@@ -81,20 +81,18 @@ nav a:hover {
 .domain ul li,
 .scenarios ul li {
   text-align: left;
+  letter-spacing: normal;
+  line-height: 20px;
   margin-left: -2rem;
 }
 .domain img,
 .purpose img {
   padding-top: 2rem;
   margin-top: -2rem;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 15px;
 }
 .purpose ul li {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  text-align: left;
   padding-bottom: 1rem;
 }
 footer {
