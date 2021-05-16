@@ -97,7 +97,7 @@ ul.hide {
 }
 nav a:hover {
   color: #fffaf0;
-  background-color: #87ceeb;
+  background-color: gray;
 }
 .responsive li {
   display: block;
