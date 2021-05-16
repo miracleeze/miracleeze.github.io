@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: lightgray;
+}
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+#motto,
+.contentbox {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+header {
+  background-color: #002366;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: 18px;
+}
+header h1 {
+  font-size: 1.8rem;
+  margin-top: -2.8rem;
+  color: skyblue;
+  text-align: center;
+}
+header #motto {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  color: #fffaf0;
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+}
+header img {
+  border-radius: 15px;
+  padding-top: 2rem;
+  margin-top: -1rem;
+  margin-left: 0.3rem;
+  width: 5rem;
+}
+header,
+main,
+nav,
+footer {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+nav {
+  margin-top: -1.2rem;
+  background-color: #010b13;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #fffaf0;
+}
+.clearfix {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.clearfix li:first-child {
+  display: block;
+}
+ul.hide {
+  display: none;
+}
+.clearfix a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #fffaf0;
+}
+.contentbox {
+  display: block;
+  margin: 10px auto;
+  border: 1px dashed #010b13;
+  color: #010b13;
+  padding: 15px;
+  background-color: lightgray;
+}
+nav a:hover {
+  color: #fffaf0;
+  background-color: #87ceeb;
+}
+.responsive li {
+  display: block;
+}
+.active {
+  color: white;
+  background-color: skyblue;
+}
+footer {
+  color: #fffaf0;
+  background-color: #010b13;
+  padding: 0.2rem;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+footer a {
+  color: #fffaf0;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

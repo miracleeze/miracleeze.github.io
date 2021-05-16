@@ -1,0 +1,15 @@
+@media only screen and (min-width: 45em) {
+  .cleafix {
+    display: flex;
+  }
+  .cleafix li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .cleafix li:first-child {
+    display: none;
+  }
+  .contentbox {
+    max-width: 60rem;
+  }
+}
