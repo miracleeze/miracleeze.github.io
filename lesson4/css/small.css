@@ -103,8 +103,8 @@ nav a:hover {
   display: block;
 }
 .active {
-  color: white;
-  background-color: skyblue;
+  color: skyblue;
+  background-color: lightsalmon;
 }
 footer {
   color: #fffaf0;
