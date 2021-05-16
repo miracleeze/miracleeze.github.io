@@ -103,7 +103,7 @@ nav a:hover {
   display: block;
 }
 .active {
-  background-color: lightsalmon;
+  background-color: rgb(7, 7, 226);
 }
 footer {
   color: #fffaf0;
