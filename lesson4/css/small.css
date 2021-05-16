@@ -18,6 +18,11 @@ header {
   border-radius: 15px;
   margin-bottom: 18px;
 }
+h2 {
+  font-size: 2rem;
+  color: #002366;
+  text-align: center;
+}
 header h1 {
   font-size: 1.8rem;
   margin-top: -2.8rem;

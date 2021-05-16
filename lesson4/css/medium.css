@@ -1,13 +1,16 @@
 @media only screen and (min-width: 45em) {
-  .cleafix {
-    display: flex;
-  }
-  .cleafix li {
-    display: block;
-    flex: 1 1 100%;
-  }
-  .cleafix li:first-child {
+  nav button {
     display: none;
+  }
+  nav ul.hide {
+    display: block;
+  }
+  nav ul li {
+    float: left;
+  }
+  .clearfix ul li a {
+    border-right: 1px solid black;
+    padding: 0.5rem 1.7rem;
   }
   .contentbox {
     max-width: 60rem;

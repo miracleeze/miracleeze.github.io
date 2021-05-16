@@ -6,6 +6,10 @@
     display: block;
   }
   nav ul li {
-    float: inherit;
+    float: left;
+  }
+  .clearfix ul li a {
+    border-right: 1px solid black;
+    padding: 0.5rem 3.82rem;
   }
 }
