@@ -1,8 +1,23 @@
-const input = document.querySelector('#input').textContent = input;
-const button = document.querySelector('#Add Chapter').textContent = 'Add Chapter';
-const unordered list = document.querySelector('#listcontainer').textContent = listcontainer;
-'Add Chapter'.addEventListener('click', ('listen') => {
-    let listen = document.createElement('listen').textContent = listen;
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const list = document.querySelector("ul.list");
 
-  // all of our code will go here
+button.addEventListener("click", () => {
+  let item = input.value;
+  input.value = "";
+
+  const listItem = document.createElement("li");
+  const listText = document.createElement("span");
+  const deletebutton = document.createElement("button");
+
+  listItem.appendChild(listText);
+  listText.textContent = item;
+  listItem.appendChild(deletebutton);
+  deletebutton.textContent = "❌";
+  list.appendChild(listItem);
+
+  deletebutton.onclick = function (e) {
+    list.removeChild(listItem);
+  };
+  input.focus();
 });
