@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lesson5/prestoncss/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../lesson5/prestoncss/small.css" />
+    <link rel="stylesheet" href="../lesson5/prestoncss/medium.css" />
+    <link rel="stylesheet" href="../lesson5/prestoncss/large.css" />
+    <script src="../lesson5/prestonjs/preston.js" defer></script>
+    <title>BlueSky Day|Preston Idaho</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="../Lesson3/Images/image_logo.jpg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>BlueSky Day</h1>
+        <div id="motto">Hello Sunshine!</div>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="../lesson4/preston-4.html" class="active">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="contentbox">Hero w/ weather summary</div>
+      <div class="contentbox">5 Day Forecast</div>
+      <div class="contentbox">Article</div>
+      <div class="contentbox">Contact Information</div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> | Miracle Eze | Accra |
+        <a href="../index.html">Assignment Portal</a> |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYU-Idaho Online Learning</a
+        >
+      </p>
+      <p>Last modified: <span id="modifiedTime"></span></p>
+    </footer>
+  </body>
+</html>
