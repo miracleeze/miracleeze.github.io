@@ -3,6 +3,17 @@
 body {
   background-color: lightgray;
 }
+.banner {
+  display: none;
+  color: #87ceeb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: gray;
+}
+.banner p {
+  text-align: center;
+  margin: 0 auto;
+}
 /*****************header and Nav************/
 h1,
 h2,
@@ -83,7 +94,7 @@ main,
 nav,
 footer {
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 60rem;
 }
 ul.hide {
   display: none;
@@ -131,7 +142,7 @@ p {
 .sum2 {
   list-style: none;
 }
-.contentbox {
+.contentfore {
   text-align: center;
   margin-top: 2.5rem;
   margin-bottom: -0.25rem;
@@ -152,8 +163,8 @@ p {
   margin-left: -1px;
 }
 .forecast-con h4 {
-  background-color: #ad343e;
-  color: #87ceeb;
+  background-color: #002366;
+  color: whitesmoke;
   margin-top: 0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -191,12 +202,38 @@ p {
   font-style: italic;
   text-align: center;
 }
+.content,
+ul {
+  list-style-type: none;
+}
+.content {
+  margin-top: 1rem;
+  max-width: 100%;
+  background-color: #cabbdd;
+  padding-bottom: 0.5rem;
+}
+.map-image {
+  display: none;
+}
+.location-image {
+  display: flex;
+  justify-content: center;
+  margin-left: -3rem;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-left: -3rem;
+  padding: 0.5rem;
+}
+
 /******************End of main***************/
 /*****************Start styling footer********/
 footer {
   color: #fffaf0;
   background-color: #010b13;
   padding: 0.2rem;
+  padding-top: 0.35rem;
   padding-bottom: 10px;
   text-align: center;
   border-radius: 15px;
