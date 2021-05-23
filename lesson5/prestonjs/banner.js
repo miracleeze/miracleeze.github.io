@@ -1,6 +1,7 @@
-let thedate = new Date();
-if (thedate.getDay() == 5) {
-  document.querySelector(".banner").style.display = "block";
+const day = d.getDay();
+const banner = document.querySelector(".banner");
+if (day == 5) {
+  banner.style.display = "block";
 } else {
-  document.querySelector(".banner").style.display = "none";
+  banner.style.display = "none";
 }
