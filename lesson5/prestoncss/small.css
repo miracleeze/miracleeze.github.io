@@ -180,7 +180,7 @@ p {
 }
 .article {
   margin: 10px auto;
-  background-color: #dfd7ea;
+  background-color: lightgray;
   max-width: 500px;
   padding: 1rem 1rem 0 1rem;
   border: 1px solid #333;
@@ -201,16 +201,19 @@ p {
 .article1 {
   font-style: italic;
   text-align: center;
+  letter-spacing: 2px;
+  line-height: 40px;
 }
 .content,
 ul {
   list-style-type: none;
 }
 .content {
-  margin-top: 1rem;
+  margin-top: 2rem;
   max-width: 100%;
-  background-color: #cabbdd;
-  padding-bottom: 0.5rem;
+  background-color: lightgray;
+  padding-bottom: 1.5rem;
+  border: 1px solid black;
 }
 .map-image {
   display: none;
@@ -224,7 +227,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-left: -3rem;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
 /******************End of main***************/
@@ -233,11 +236,11 @@ footer {
   color: #fffaf0;
   background-color: #010b13;
   padding: 0.2rem;
-  padding-top: 0.35rem;
-  padding-bottom: 10px;
+  padding-top: 1.35rem;
+  padding-bottom: 40px;
   text-align: center;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 footer a {
   color: #fffaf0;
