@@ -9,6 +9,7 @@ function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
 //preston page - adds pancake reminder on fridays
-if (currntDate.getDay() == 5) {
-  banner = document.querySelector(".banner").style.display = "block";
-}
+let banner = document.querySelector(".banner");
+document.addEventListener("DOMContentLoaded", () => {
+  if (date.getDay() == 1) banner.style.display = "block";
+});
