@@ -94,7 +94,8 @@ main,
 nav,
 footer {
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 90em;
+  padding: 10px;
 }
 ul.hide {
   display: none;
@@ -106,6 +107,10 @@ ul.hide {
   color: #010b13;
   padding: 15px;
   background-color: lightgray;
+}
+.contentbox img {
+  width: 100%;
+  height: auto;
 }
 h3,
 p {
