@@ -112,8 +112,8 @@ ul.hide {
 .contentbox img {
   width: 100%;
   height: auto;
-  padding-top: -25rem;
-  padding-bottom: -10rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 h3,
 p {
@@ -121,11 +121,12 @@ p {
 }
 .sum {
   position: absolute;
-  top: 75px;
-  left: 50px;
   background: radial-gradient(#87ceeb, #002366);
-  margin: 1.25rem auto;
-  padding: 0.25rem;
+  margin: 10px auto;
+  margin-top: -10rem;
+  width: 100%;
+  max-width: 19rem;
+  height: 195px;
   box-shadow: 2px 0 30px #333;
   display: grid;
   grid-template-columns: 1fr 1fr;

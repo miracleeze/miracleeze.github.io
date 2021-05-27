@@ -4,6 +4,7 @@
   }
   nav ul.hide {
     display: block;
+    flex: 1 1 100%;
   }
   nav ul li {
     float: left;
@@ -18,8 +19,11 @@
     margin-bottom: 5rem;
   }
   .sum {
-    top: 40px;
-    left: 100px;
+    left: 5rem;
+    margin-top: -15rem;
+    max-width: 20rem;
+    max-height: 250px;
+    margin-bottom: 7rem;
   }
   .contentfore {
     display: block;
@@ -64,7 +68,7 @@
   main,
   nav,
   footer {
-    max-width: 70rem;
+    max-width: 70em;
   }
   .banner {
     margin-bottom: 0;
