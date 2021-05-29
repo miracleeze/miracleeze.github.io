@@ -1,47 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Cuprum&family=Raleway&display=swap");
-    h1,
-    footer {
-      font-family: Cuprum, sans-serif;
-      color: #E8F1F2;
-      background-color: #0d1822;
-      padding: 1.1rem;
-      text-align: center;
-    }
-    
-    body {
-      font-size:19px;
-      line-height: 1.5;
-      background-color:lightgray;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+h1,
+footer {
+  font-family: Cuprum, sans-serif;
+  color: #e8f1f2;
+  background-color: #0d1822;
+  padding: 1.1rem;
+  text-align: center;
 }
 
- h1,h2, ul,footer{
-    margin: 1.25rem auto;
-    max-width: 720px;
- }
- h1{
-   font-size: 1.5rem;
- }
-h2{
-    font-size: 1rem;
-    margin-top: 2em;
-    border-bottom: #13293D solid 2px;
-    font-family: Raleway, Helvetica, "Helvetica Neue", Arial, sans-serif;
+body {
+  font-size: 19px;
+  line-height: 1.5;
+  background-color: lightgray;
 }
- footer {
-font-size: 13px;
+
+h1,
+h2,
+ul,
+footer {
+  margin: 1.25rem auto;
+  max-width: 720px;
 }
-h1 img{
-    width: 200px;
-    height: auto;
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1rem;
+  margin-top: 2em;
+  border-bottom: #13293d solid 2px;
+  font-family: Raleway, Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+footer {
+  font-size: 13px;
+}
+h1 img {
+  width: 200px;
+  height: auto;
 }
 ul li {
-   font-family: Cuprum, sans-serif;
+  font-family: Cuprum, sans-serif;
 }
- a:link {
-    text-decoration:none;
-    color:#E8F1F2;
+a:link {
+  text-decoration: none;
+  color: #e8f1f2;
 }
-a:hover{
+a:hover {
   color: goldenrod;
-
 }
