@@ -1,0 +1,81 @@
+@media only screen and (min-width: 45em) {
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    display: block;
+    flex: 1 1 100%;
+  }
+  nav ul li {
+    float: left;
+  }
+  .clearfix ul li a {
+    border-right: 1px solid black;
+    padding: 0.5rem 1.7rem;
+  }
+  .contentbox picture,
+  img {
+    max-width: 50rem;
+    max-height: 250px;
+    margin-bottom: 5rem;
+  }
+  .sum {
+    left: 5rem;
+    margin-top: -15rem;
+    max-width: 20rem;
+    max-height: 250px;
+    margin-bottom: 7rem;
+  }
+  .contentfore {
+    display: block;
+  }
+  .forecast {
+    display: flex;
+  }
+  .article {
+    max-width: 48rem;
+  }
+  .article h3 {
+    margin-top: 0;
+  }
+  .article img {
+    float: right;
+    margin: 0.5rem;
+  }
+  .map-image {
+    display: block;
+    width: 300px;
+    border: 1px solid #333;
+    margin-top: 0.8rem;
+    margin-left: -4.5rem;
+  }
+  .social-media {
+    margin-top: -0.5rem;
+    margin-left: 2rem;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 35rem;
+  }
+  .location-image {
+    padding: 1rem 0 0 1rem;
+    margin-right: -3rem;
+  }
+  .content-img {
+    max-width: 50rem;
+    max-height: 250px;
+  }
+
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 70em;
+  }
+  .banner {
+    margin-bottom: 0;
+  }
+}
