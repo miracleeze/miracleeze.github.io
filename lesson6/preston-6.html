@@ -68,10 +68,10 @@
           </ul>
           <ul class="sum2">
             <li>Sunny</li>
-            <li>64 ℉</li>
-            <li>35 ℉</li>
+            <li><span class="temp">64</span> ℉</li>
+            <li><span class="windcchill">35</span>℉</li>
             <li>78%</li>
-            <li>4 mph</li>
+            <li><span class="windspeed">4</span> mph</li>
           </ul>
         </section>
       </div>
@@ -221,5 +221,10 @@
       <p>Last modified: <span id="modifiedTime"></span></p>
     </footer>
     <script src="../lesson5/prestonjs/preston.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+    <script src="../lesson6/js/windchill.js"></script>
   </body>
 </html>
