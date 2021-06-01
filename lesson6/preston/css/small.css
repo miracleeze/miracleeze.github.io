@@ -116,7 +116,7 @@ ul.hide {
   width: 100%;
   max-width: 30rem;
   height: auto;
-  max-height: 400px;
+  height: 220px;
 }
 h3,
 p {
@@ -126,7 +126,7 @@ p {
   position: absolute;
   background: radial-gradient(#87ceeb, #002366);
   margin: 10px auto;
-  margin-top: -11rem;
+  margin-top: -13rem;
   width: 100%;
   max-width: 18rem;
   height: 180px;
