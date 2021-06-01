@@ -14,8 +14,8 @@
     padding: 0.5rem 1.7rem;
   }
   .contentbox {
-    max-width: 65rem;
-    max-height: 250px;
+    max-width: 70rem;
+    max-height: 300px;
     margin-bottom: 5rem;
   }
   .sum {
@@ -29,7 +29,7 @@
     display: block;
   }
   .content-img {
-    max-width: 65rem;
+    max-width: 70rem;
     max-height: 300px;
   }
   .forecast {
