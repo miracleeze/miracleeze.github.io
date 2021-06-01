@@ -14,7 +14,7 @@
     padding: 0.5rem 1.7rem;
   }
   .contentbox {
-    max-width: 50rem;
+    max-width: 65rem;
     max-height: 250px;
     margin-bottom: 5rem;
   }
@@ -22,11 +22,15 @@
     left: 5rem;
     margin-top: -15rem;
     max-width: 20rem;
-    max-height: 250px;
+    max-height: 300px;
     margin-bottom: 7rem;
   }
   .contentfore {
     display: block;
+  }
+  .content-img {
+    max-width: 65rem;
+    max-height: 300px;
   }
   .forecast {
     display: flex;

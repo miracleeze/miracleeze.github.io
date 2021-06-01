@@ -95,7 +95,7 @@ main,
 nav,
 footer {
   margin: 0 auto;
-  max-width: 90em;
+  max-width: 60em;
   padding: 10px;
 }
 ul.hide {
@@ -106,14 +106,17 @@ ul.hide {
   position: relative;
   margin: 10px auto;
   color: #010b13;
+  width: 100%;
+  max-width: 30rem;
+  height: 220px;
   padding: 15px;
   background-color: lightgray;
 }
-.contentbox img {
+.content-img {
   width: 100%;
+  max-width: 30rem;
   height: auto;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  max-height: 450px;
 }
 h3,
 p {
@@ -123,10 +126,10 @@ p {
   position: absolute;
   background: radial-gradient(#87ceeb, #002366);
   margin: 10px auto;
-  margin-top: -10rem;
+  margin-top: -11rem;
   width: 100%;
   max-width: 19rem;
-  height: 195px;
+  height: 190px;
   box-shadow: 2px 0 30px #333;
   display: grid;
   grid-template-columns: 1fr 1fr;
