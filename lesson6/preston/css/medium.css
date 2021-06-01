@@ -20,7 +20,7 @@
   }
   .sum {
     left: 5rem;
-    margin-top: -15rem;
+    margin-top: -14rem;
     max-width: 20rem;
     height: 200px;
     margin-bottom: 7rem;
@@ -34,7 +34,7 @@
   }
   .content-img {
     max-width: 70rem;
-    max-height: 300px;
+    height: 300px;
   }
   .forecast {
     display: flex;
