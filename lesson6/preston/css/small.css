@@ -109,7 +109,7 @@ ul.hide {
   padding: 15px;
   background-color: lightgray;
 }
-.contentbox {
+.contentbox img {
   width: 100%;
   height: auto;
   padding-top: 0.1rem;
@@ -237,14 +237,6 @@ ul {
   justify-content: center;
   margin-left: -3rem;
   padding: 0.2rem;
-}
-.content-img {
-  margin: 10px auto;
-  border: 1px solid #777;
-  width: 100%;
-  max-width: 30rems;
-  height: auto;
-  max-height: 180px;
 }
 
 /******************End of main***************/
