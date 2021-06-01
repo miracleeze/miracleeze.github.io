@@ -22,8 +22,12 @@
     left: 5rem;
     margin-top: -15rem;
     max-width: 20rem;
-    max-height: 300px;
+    height: 200px;
     margin-bottom: 7rem;
+  }
+  .sum1,
+  .sum2 {
+    font-size: 15px;
   }
   .contentfore {
     display: block;

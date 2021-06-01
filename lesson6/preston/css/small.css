@@ -128,8 +128,8 @@ p {
   margin: 10px auto;
   margin-top: -11rem;
   width: 100%;
-  max-width: 19rem;
-  height: 190px;
+  max-width: 18rem;
+  height: 180px;
   box-shadow: 2px 0 30px #333;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -153,6 +153,7 @@ p {
 .sum1,
 .sum2 {
   list-style: none;
+  font-size: 10px;
 }
 .contentfore {
   text-align: center;
