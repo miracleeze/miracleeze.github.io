@@ -22,3 +22,25 @@
     margin-bottom: 0;
   }
 }
+.gallery {
+  margin: 0.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  max-width: 800px;
+}
+picture img {
+  width: 250px;
+  height: auto;
+  margin: 0.5rem;
+}
+figcaption {
+  font-size: small;
+}
+.gallery picture img [data-src] {
+  filter: blur(0.2em);
+}
+.gallery picture img {
+  filter: blur(0em);
+  transition: filter 0.2s;
+}

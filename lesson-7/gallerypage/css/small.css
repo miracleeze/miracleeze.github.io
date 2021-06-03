@@ -242,6 +242,28 @@ ul {
   margin-left: -3rem;
   padding: 0.2rem;
 }
+.gallery {
+  margin: 0.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  max-width: 200px;
+}
+picture img {
+  width: 75px;
+  height: auto;
+  margin: 0.5rem;
+}
+figcaption {
+  display: none;
+}
+.gallery picture img [data-src] {
+  filter: blur(0.2em);
+}
+.gallery picture img {
+  filter: blur(0em);
+  transition: filter 0.2s;
+}
 
 /******************End of main***************/
 /*****************Start styling footer********/

@@ -82,3 +82,24 @@
     margin-bottom: 0;
   }
 }
+.gallery {
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 400px;
+}
+picture img {
+  width: 200px;
+  height: auto;
+  margin: 0.5rem;
+}
+figcaption {
+  font-size: small;
+}
+.gallery picture img [data-src] {
+  filter: blur(0.2em);
+}
+.gallery picture img {
+  filter: blur(0em);
+  transition: filter 0.2s;
+}
