@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*************Start Body*****************/
+body {
+  background-color: lightgray;
+}
+.banner {
+  display: none;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: #010b13;
+  border-radius: 15px;
+}
+.banner p {
+  text-align: center;
+  margin: 0 auto;
+}
+/*****************header and Nav************/
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #002366;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: 18px;
+}
+h2 {
+  font-size: 2rem;
+  color: #002366;
+  text-align: center;
+}
+header h1 {
+  font-size: 1.8rem;
+  margin-top: -2.8rem;
+  color: skyblue;
+  text-align: center;
+}
+header #motto {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  color: #fffaf0;
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+}
+header img {
+  border-radius: 15px;
+  padding-top: 2rem;
+  margin-top: -1rem;
+  margin-left: 0.3rem;
+  width: 5rem;
+}
+nav {
+  margin-top: -1.2rem;
+  background-color: #010b13;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #fffaf0;
+}
+.responsive li {
+  display: block;
+}
+.active {
+  background-color: #002366;
+}
+nav a:hover {
+  color: #fffaf0;
+  background-color: gray;
+}
+
+/************End Header Nav***************/
+#motto,
+.contentbox {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+header,
+main,
+nav,
+footer {
+  margin: 0 auto;
+  max-width: 60em;
+  padding: 10px;
+}
+ul.hide {
+  display: none;
+}
+/*******************styling main **********/
+.contentbox {
+  position: relative;
+  margin: 10px auto;
+  color: #010b13;
+  width: 100%;
+  max-width: 30rem;
+  height: 220px;
+  padding: 15px;
+  background-color: lightgray;
+}
+.content-img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  height: 220px;
+}
+h3,
+p {
+  margin: 0;
+}
+.sum {
+  position: absolute;
+  background: radial-gradient(#87ceeb, #002366);
+  margin: 10px auto;
+  margin-top: -13rem;
+  width: 100%;
+  max-width: 18rem;
+  height: 180px;
+  box-shadow: 2px 0 30px #333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  opacity: 0.8;
+}
+.sum h3 {
+  grid-column: 1 / span 2;
+  text-align: center;
+  color: #fffaf0;
+  width: 90%;
+}
+.sum1 {
+  text-align: center;
+  color: whitesmoke;
+}
+.sum2 {
+  text-align: left;
+  margin-left: -2rem;
+  color: whitesmoke;
+}
+.sum1,
+.sum2 {
+  list-style: none;
+  font-size: 10px;
+}
+.contentfore {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: -0.25rem;
+}
+.forecast {
+  margin: 10px auto;
+  display: none;
+  width: 460px;
+  height: 180px;
+  background-color: #010b13;
+  color: #fffaf0;
+  margin-bottom: 1rem;
+}
+.forecast-con {
+  flex: 1 1 100%;
+  text-align: center;
+  border: 1px solid #333;
+  margin-left: -1px;
+}
+.forecast-con h4 {
+  background-color: #002366;
+  color: whitesmoke;
+  margin-top: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+.forecast-con img {
+  margin: -1.2rem auto 0 auto;
+  width: 80px;
+}
+.forecast-con p {
+  margin-top: -0.8rem;
+  font-weight: bolder;
+}
+.article {
+  margin: 10px auto;
+  background-color: lightgray;
+  max-width: 500px;
+  padding: 1rem 1rem 0 1rem;
+  border: 1px solid #333;
+}
+.article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  max-width: 300px;
+  box-shadow: 0 0 30px #777;
+  border: 1px solid #333;
+}
+.article h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.article1 {
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.content,
+ul {
+  list-style-type: none;
+}
+.content {
+  margin-top: 2rem;
+  max-width: 100%;
+  background-color: lightgray;
+  padding-bottom: 1.5rem;
+  border: 1px solid black;
+}
+.map-image {
+  display: none;
+}
+.location-image {
+  display: flex;
+  justify-content: center;
+  margin-left: -3rem;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-left: -3rem;
+  padding: 0.2rem;
+}
+
+/******************End of main***************/
+/*****************Start styling footer********/
+footer {
+  color: #fffaf0;
+  background-color: #010b13;
+  padding: 0.2rem;
+  padding-top: 1.35rem;
+  padding-bottom: 40px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+footer a {
+  color: #fffaf0;
+}
+/**********************End footer************/
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.clearfix li:first-child {
+  display: block;
+}
+
+.clearfix a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #fffaf0;
+}

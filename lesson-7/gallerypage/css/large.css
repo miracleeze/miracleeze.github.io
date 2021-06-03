@@ -1,0 +1,24 @@
+@media only screen and (min-width: 80em) {
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    display: block;
+  }
+  nav ul li {
+    float: left;
+  }
+  .clearfix ul li a {
+    border-right: 1px solid black;
+    padding: 0.5rem 3.82rem;
+  }
+  main h2 {
+    font-size: 30px;
+  }
+  .contentbox {
+    max-width: 60rem;
+  }
+  .banner {
+    margin-bottom: 0;
+  }
+}
