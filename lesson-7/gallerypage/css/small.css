@@ -278,6 +278,9 @@ footer {
 footer a {
   color: #fffaf0;
 }
+p {
+  margin-top: 0.5rem;
+}
 /**********************End footer************/
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
