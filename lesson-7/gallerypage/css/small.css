@@ -251,12 +251,12 @@ ul {
   max-width: 200px;
   transition: filter 0.2s;
   box-shadow: 0 4px 8px 0 skyblue;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 15px;
   margin: 0px auto 20px auto;
 }
 .gallery-design img {
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   width: 100%;
 }
 .box {

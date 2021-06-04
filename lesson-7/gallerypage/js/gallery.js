@@ -11,5 +11,5 @@ function toggleMenu() {
 //preston page - adds pancake reminder on fridays
 let banner = document.querySelector(".banner");
 document.addEventListener("DOMContentLoaded", () => {
-  if (date.getDay() == 1) banner.style.display = "block";
+  if (date.getDay() == 5) banner.style.display = "block";
 });
