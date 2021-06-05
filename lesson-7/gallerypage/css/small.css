@@ -248,7 +248,7 @@ ul {
   grid-gap: 10px;
 }
 .gallery-design {
-  max-width: 200px;
+  max-width: 400px;
   transition: filter 0.2s;
   box-shadow: 0 4px 8px 0 skyblue;
   border: 2px solid black;
