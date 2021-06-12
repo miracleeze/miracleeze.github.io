@@ -10,7 +10,7 @@ table {
 table,
 th,
 td {
-  border: 1px solid lightsteelblue;
+  border: 1.5px solid lightsteelblue;
   border-collapse: collapse;
 }
 th,
