@@ -69,6 +69,7 @@ nav ul li.active a {
 main {
   padding: 0 2%;
   min-height: 20rem;
+  background-color: darkgrey;
 }
 /*----------- FORM ---------------*/
 form fieldset {
