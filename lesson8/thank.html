@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Storm Center page for weather site project Miracle Eze | WDD230"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>BlueSky Day | Storm Center</title>
+  </head>
+  <body>
+    <div class="banner">
+      <p>
+        Preston Pancakes in the Park! <br />
+        9:00 A.M. Saturday at the city park Pavilion.
+      </p>
+    </div>
+    <header>
+      <div>
+        <img src="images/image_logo.jpg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>BlueSky Day</h1>
+        <div id="motto">Hello Sunshine!</div>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="../lesson6/preston-6.html">Preston</a>
+        </li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+        <li>
+          <a href="gallery-7.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Storm Report Received!</h2>
+      <p>
+        Thanks for sending in your wealth storm report. We commend your efforts.
+        We will get back to you with further instructions.
+      </p>
+    </main>
+    <footer>
+      <p>Last visit : <span class="lastvisit"></span></p>
+      <p>
+        &copy; <span id="currentYear"></span> | Miracle Eze | Accra |
+        <a href="../index.html">Assignment Portal</a> |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYU-Idaho Online Learning</a
+        >
+      </p>
+      <p>Last modified: <span id="modifiedTime"></span></p>
+    </footer>
+    <script src="js/visitdays.js" defer></script>
+    <script src="js/gallery.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lazy.js"></script>
+  </body>
+</html>
