@@ -354,6 +354,16 @@ form label.top input:required:valid {
   border-radius: 50%;
   cursor: pointer;
 }
+.stormReport {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 60rem;
+  max-height: 70rem;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgb(19, 18, 18);
+  margin-bottom: 1.5rem;
+}
 /******************End of main***************/
 /*****************Start styling footer********/
 footer {
