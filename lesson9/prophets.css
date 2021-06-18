@@ -12,7 +12,7 @@ body {
   grid-gap: 0.5rem;
   padding: 1.5rem;
   background-color: rgb(202, 202, 202);
-  box-shadow: 0 0 20px 10px darkgrey;
+  box-shadow: 0 0 15px 10px darkgrey;
 }
 section {
   color: black;
@@ -21,7 +21,7 @@ section {
   border-radius: 10px;
 }
 img {
-  width: 75%;
+  width: 60%;
   margin-bottom: 0.7rem;
   box-shadow: 0 5px 20px darkgrey;
 }
