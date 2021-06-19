@@ -41,6 +41,7 @@
   }
   .article {
     max-width: 48rem;
+    height: 470px;
   }
   .article h3 {
     margin-top: 0;
@@ -95,20 +96,19 @@
   .sbs {
     padding: 0.2rem 0;
   }
-}
-.homecards section {
-  max-width: 600px;
-  margin: 0.5rem auto;
-  border: 2px solid gray;
-  background-color: gray;
-  display: flex;
-  flex-wrap: wrap;
-}
-.homecards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .homecards {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .homecards section {
+    border: 1px solid gainsboro;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.homecards:nth-child(odd) {
-  flex-direction: row-reverse;
+  section:nth-child(odd) .town-details {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }

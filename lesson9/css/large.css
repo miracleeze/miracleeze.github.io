@@ -29,4 +29,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 800px;
   }
+  .homecards {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .homecards section {
+    border: 1px solid gainsboro;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section:nth-child(odd) .town-details {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
