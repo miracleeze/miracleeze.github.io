@@ -96,3 +96,19 @@
     padding: 0.2rem 0;
   }
 }
+.homecards section {
+  max-width: 600px;
+  margin: 0.5rem auto;
+  border: 2px solid gray;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.homecards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.homecards:nth-child(odd) {
+  flex-direction: row-reverse;
+}

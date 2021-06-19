@@ -365,6 +365,27 @@ form label.top input:required:valid {
   box-shadow: 0 10px 40px rgb(19, 18, 18);
   margin-bottom: 1.5rem;
 }
+.homecards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.2rem;
+  padding: 1rem 1rem 1rem;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+.homecards section {
+  color: #010b13;
+  background-color: #999;
+  border: solid 2px rgb(233, 227, 227);
+  border-radius: 10px;
+}
+.homecards section:nth-child(3) {
+  order: 1;
+}
+.homecards img {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
 /******************End of main***************/
 /*****************Start styling footer********/
 footer {
