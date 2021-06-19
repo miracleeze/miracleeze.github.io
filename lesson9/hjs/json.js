@@ -6,29 +6,54 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const prophets = jsonObject["prophets"];
+    const towns = jsonObject["towns"];
 
-    for (let i = 0; i < prophets.length; i++) {
-      let card = document.createElement("section");
-      let h2 = document.createElement("h2");
-      let birth_date = document.createElement("p");
-      let birth_place = document.createElement("p");
-      let image = document.createElement("img");
+    for (let i = 0; i < towns.length; i++) {
+      if (
+        towns[i].name == "Soda Springs" ||
+        towns[i].name == "Fish Haven" ||
+        towns[i].name == "Preston"
+      ) {
+        let card = document.createElement("section");
+        let cardDiv = document.createElement("div");
+        cardDiv.setAttribute("class", "town-details");
+        let h2 = document.createElement("h2");
+        let motto = document.createElement("h3");
+        let yearFounded = document.createElement("p");
+        let population = document.createElement("p");
+        let rainfall = document.createElement("p");
+        let image = document.createElement("img");
 
-      h2.textContent = prophets[i].name + " " + prophets[i].lastname;
-      birth_date.textContent = "Date of Birth: " + prophets[i].birthdate;
-      birth_place.textContent = "Place of Birth: " + prophets[i].birthplace;
-      image.setAttribute("src", prophets[i].imageurl);
-      image.setAttribute(
-        "alt",
-        prophets[i].name + " " + prophets[i].lastname + " - " + (i + 1)
-      );
+        h2.textContent = towns[i].name;
+        motto.textContent = towns[i].motto;
+        yearFounded.textContent = "Year Founded:" + towns[i].yearFounded;
+        population.textContent = "Population: " + towns[i].currentPopulation;
+        rainfall.textContent = "Average Rainfall:" + towns[i].averageRainfall;
 
-      card.appendChild(h2);
-      card.append(birth_date);
-      card.append(birth_place);
-      card.append(image);
+        if (towns[i].name == "Soda Springs") {
+          image.setAttribute("src", "../lesson9/images/soda-spring.jpg");
+          image.setAttribute("alt", "Image of " + towns[i].name);
+          card.setAttribute("id", "sodaspring-card");
+        }
+        if (towns[i].name == "Fish Haven") {
+          image.setAttribute("src", "../lesson9/images/fish-haven.jpg");
+          image.setAttribute("alt", "Image of " + towns[i].name);
+          card.setAttribute("id", "fishhaven-card");
+        }
+        if (towns[i].name == "Preston") {
+          image.setAttribute("src", "../lesson9/images/preston-rainbow.jpg");
+          image.setAttribute("alt", "Image of " + towns[i].name);
+          card.setAttribute("id", "prestonrainbow-card");
+        }
+        cardDiv.appendChild(h2);
+        cardDiv.appendChild(motto);
+        cardDiv.appendChild(yearFounded);
+        cardDiv.appendChild(population);
+        cardDiv.appendChild(rainfall);
+        card.appendChild(cardDiv);
+        card.appendChild(image);
 
-      document.querySelector("div.cards").appendChild(card);
+        document.querySelector("div.homecards").appendChild(card);
+      }
     }
   });
