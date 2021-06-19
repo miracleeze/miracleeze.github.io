@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Homepage for weather site project Miracle Eze | WDD230"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>BlueSky Day|Home</title>
+  </head>
+  <body>
+    <div class="banner">
+      <p>
+        Preston Pancakes in the Park! <br />
+        9:00 A.M. Saturday at the city park Pavilion.
+      </p>
+    </div>
+    <header>
+      <div>
+        <img src="Images/image_logo.jpg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>BlueSky Day</h1>
+        <div id="motto">Hello Sunshine!</div>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li>
+          <a href="preston-6.html">Preston</a>
+        </li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to BlueSky Day</h2>
+      <div class="contentbox">
+        <picture>
+          <source
+            media="(max-width: 200px)"
+            srcset="Images/franklinOriginal1.jpg"
+          />
+          <source
+            media="(max-width: 400px)"
+            srcset="Images/franklinOriginal2.jpg"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="Images/franklinOriginal3.jpg"
+          />
+          <img
+            class="content-img"
+            src="Images/franklinOriginal0.jpg"
+            alt="rising sun on skyblue"
+          />
+        </picture>
+      </div>
+      <div class="homecards"></div>
+      <article class="article">
+        <img src="Images/erruptions.jpg" alt="Volcano Erruption" />
+        <h3>An except of how volcano research and monitoring can save lives</h3>
+        <div class="article1">By Adejuwon Soyinka.</div>
+        <p>
+          Volcanic eruptions come with a variety of hazards, depending on the
+          type of volcano and its magma. Some have effusive eruptions, where
+          lava flows constantly, while others can expel large clouds of
+          fragments of magma and gases – volcanic ash – into the atmosphere. For
+          some of the most powerful eruptions, these ash clouds can rise tens of
+          kilometers into the air and travel thousands of kilometers. This is
+          what has happened on the island of St Vincent and the Grenadines,
+          after a new eruption was confirmed at La Soufriere volcano on April 9
+          2021. The explosive eruption, the first since the volcano last erupted
+          in 1979, produced an ash plume of about six kilometers, which was also
+          seen in satellite images. The eruption prompted the evacuation of
+          about 20,000 people, with no casualties. This was made possible thanks
+          to our improved understanding of how volcanoes work and new advances
+          in volcano monitoring.<br />
+          <br />
+          <b
+            >source:https://theconversation.com/the-st-vincent-eruption-is-a-reminder-of-how-volcano-research-and-monitoring-can-save-lives-159362</b
+          >
+        </p>
+      </article>
+      <div class="content">
+        <div>
+          <img
+            class="map-image"
+            src="Images/prestonmap.png"
+            alt="map preston, idaho"
+            height="200"
+            width="300"
+          />
+        </div>
+        <div>
+          <div class="location-image">
+            <ul>
+              <li><b>BlueSky Day</b></li>
+              <li>
+                <img src="Images/locationicon.png" alt="location Icon" />
+                30 N 1st E
+              </li>
+              <li>Preston, ID 82363</li>
+              <li></li>
+              <li>&phone; (233) 055-5223-235</li>
+              <li>&#9993; blueskyday@outlook.com</li>
+            </ul>
+          </div>
+          <div class="social-media">
+            <a
+              href="https://www.facebook.com/places/Things-to-do-in-Preston-Idaho/109383655754042/"
+              target="_blank"
+              ><img
+                src="Images/facebook.png"
+                alt="Facebook Icon"
+                height="40"
+                width="40"
+            /></a>
+            <a href="https://www.twitter.com/PrestonIdaho/" target="_blank"
+              ><img
+                src="Images/twitter.png"
+                alt="twitter Icon"
+                height="40"
+                width="40"
+            /></a>
+            <a href="https://www.instagram.com/idahopreston/" target="_blank"
+              ><img
+                src="Images/instagram.png"
+                alt="instagram Icon"
+                height="40"
+                width="40"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Last visit : <span class="lastvisit"></span></p>
+      <p>
+        &copy; <span id="currentYear"></span> | Miracle Eze | Accra |
+        <a href="../index.html">Assignment Portal</a> |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYU-Idaho Online Learning</a
+        >
+      </p>
+      <p>Last modified: <span id="modifiedTime"></span></p>
+    </footer>
+    <script src="hjs/preston.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+    <script src="hjs/windchill.js" defer></script>
+    <script src="hjs/visitdays.js" defer></script>
+    <script src="hjs/json.js" defer></script>
+  </body>
+</html>
