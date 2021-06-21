@@ -5,10 +5,9 @@ body {
 }
 .banner {
   display: none;
-  color: whitesmoke;
+  color: #010b13;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  background-color: #010b13;
+  font-weight: 500;
   border-radius: 15px;
 }
 .banner p {
@@ -373,9 +372,6 @@ form label.top input:required:valid {
   text-align: center;
   margin-top: -0.5rem;
 }
-.homecards section:nth-child(3) {
-  order: 1;
-}
 
 .homecards section {
   color: #010b13;
@@ -398,6 +394,15 @@ form label.top input:required:valid {
   font-size: 14px;
   margin-top: -1rem;
   margin-bottom: 1.5rem;
+}
+#prestonrainbow-card {
+  order: 1;
+}
+#sodaspring-card {
+  order: 2;
+}
+#fishhaven-card {
+  order: 3;
 }
 /******************End of main***************/
 /*****************Start styling footer********/

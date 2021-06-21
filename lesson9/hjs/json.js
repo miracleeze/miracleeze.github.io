@@ -30,6 +30,11 @@ fetch(requestURL)
         population.textContent = "Population: " + towns[i].currentPopulation;
         rainfall.textContent = "Average Rainfall:" + towns[i].averageRainfall;
 
+        if (towns[i].name == "Preston") {
+          image.setAttribute("src", "../lesson9/Images/preston-rainbow.jpg");
+          image.setAttribute("alt", "Image of " + towns[i].name);
+          card.setAttribute("id", "prestonrainbow-card");
+        }
         if (towns[i].name == "Soda Springs") {
           image.setAttribute("src", "../lesson9/Images/soda-spring.jpg");
           image.setAttribute("alt", "Image of " + towns[i].name);
@@ -40,11 +45,7 @@ fetch(requestURL)
           image.setAttribute("alt", "Image of " + towns[i].name);
           card.setAttribute("id", "fishhaven-card");
         }
-        if (towns[i].name == "Preston") {
-          image.setAttribute("src", "../lesson9/Images/preston-rainbow.jpg");
-          image.setAttribute("alt", "Image of " + towns[i].name);
-          card.setAttribute("id", "prestonrainbow-card");
-        }
+
         cardDiv.appendChild(h2);
         cardDiv.appendChild(motto);
         cardDiv.appendChild(yearFounded);
