@@ -31,17 +31,17 @@ fetch(requestURL)
         rainfall.textContent = "Average Rainfall:" + towns[i].averageRainfall;
 
         if (towns[i].name == "Soda Springs") {
-          image.setAttribute("src", "../lesson9/images/soda-spring.jpg");
+          image.setAttribute("src", "../lesson9/Images/soda-spring.jpg");
           image.setAttribute("alt", "Image of " + towns[i].name);
           card.setAttribute("id", "sodaspring-card");
         }
         if (towns[i].name == "Fish Haven") {
-          image.setAttribute("src", "../lesson9/images/fish-haven.jpg");
+          image.setAttribute("src", "../lesson9/Images/fish-haven.jpg");
           image.setAttribute("alt", "Image of " + towns[i].name);
           card.setAttribute("id", "fishhaven-card");
         }
         if (towns[i].name == "Preston") {
-          image.setAttribute("src", "../lesson9/images/preston-rainbow.jpg");
+          image.setAttribute("src", "../lesson9/Images/preston-rainbow.jpg");
           image.setAttribute("alt", "Image of " + towns[i].name);
           card.setAttribute("id", "prestonrainbow-card");
         }
