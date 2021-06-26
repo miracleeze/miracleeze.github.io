@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Completed Homepage for weather site project Miracle Eze | WDD230"
+      content="Completed Preston page for weather site project Miracle Eze | WDD230"
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <title>BlueSky Day|Home</title>
+    <title>BlueSky Day | Preston Idaho</title>
   </head>
   <body>
     <div class="banner">
@@ -38,9 +38,9 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="primaryNav" class="hide">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="/lesson9/index.html">Home</a></li>
         <li>
-          <a href="../lesson10/preston-10.html">Preston</a>
+          <a href="preston-10.html" class="active">Preston</a>
         </li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
@@ -49,7 +49,7 @@
       </ul>
     </nav>
     <main>
-      <h2>Welcome to BlueSky Day</h2>
+      <h2>Preston Idaho</h2>
       <div class="contentbox">
         <picture>
           <source
@@ -70,31 +70,99 @@
             alt="rising sun on skyblue"
           />
         </picture>
+        <section class="sum">
+          <h3>Weather Summary</h3>
+          <ul class="sum1">
+            <li>Currently:</li>
+            <li>High:</li>
+            <li>Wind Chill:</li>
+            <li>Humidity:</li>
+            <li>Wind Speed:</li>
+          </ul>
+          <ul class="sum2">
+            <li>Sunny</li>
+            <li><span class="temp">64</span> ℉</li>
+            <li><span class="windcchill">35</span>℉</li>
+            <li>78%</li>
+            <li><span class="windspeed">4</span> mph</li>
+          </ul>
+        </section>
       </div>
-      <div class="homecards"></div>
+      <h3 class="contentfore">5 Days Forecast</h3>
+      <div class="forecast">
+        <section class="forecast-con">
+          <h4>Sat</h4>
+          <img
+            src="Images/iconfinder_weather07.png"
+            alt="weather
+          icon"
+          />
+          <p>64 ℉</p>
+        </section>
+        <section class="forecast-con">
+          <h4>Sun</h4>
+          <img
+            src="Images/iconfinder_weather07.png"
+            alt="weather
+          icon"
+          />
+          <p>51 ℉</p>
+        </section>
+        <section class="forecast-con">
+          <h4>Mon</h4>
+          <img
+            src="Images/iconfinder_weather07.png"
+            alt="weather
+          icon"
+          />
+          <p>61 ℉</p>
+        </section>
+        <section class="forecast-con">
+          <h4>Tues</h4>
+          <img
+            src="Images/iconfinder_weather07.png"
+            alt="weather
+          icon"
+          />
+          <p>66 ℉</p>
+        </section>
+        <section class="forecast-con">
+          <h4>Wed</h4>
+          <img
+            src="Images/iconfinder_weather07.png"
+            alt="weather
+          icon"
+          />
+          <p>64 ℉</p>
+        </section>
+      </div>
       <article class="article">
-        <img src="Images/erruptions.jpg" alt="Volcano Erruption" />
-        <h3>An except of how volcano research and monitoring can save lives</h3>
-        <div class="article1">By Adejuwon Soyinka.</div>
+        <img src="Images/pexels-kevin-bidwell.jpg" alt="mountains and cloud" />
+        <h3>An Except from the Mayor Welcoming Message</h3>
+        <div class="article1">By Dan Keller.</div>
         <p>
-          Volcanic eruptions come with a variety of hazards, depending on the
-          type of volcano and its magma. Some have effusive eruptions, where
-          lava flows constantly, while others can expel large clouds of
-          fragments of magma and gases – volcanic ash – into the atmosphere. For
-          some of the most powerful eruptions, these ash clouds can rise tens of
-          kilometers into the air and travel thousands of kilometers. This is
-          what has happened on the island of St Vincent and the Grenadines,
-          after a new eruption was confirmed at La Soufriere volcano on April 9
-          2021. The explosive eruption, the first since the volcano last erupted
-          in 1979, produced an ash plume of about six kilometers, which was also
-          seen in satellite images. The eruption prompted the evacuation of
-          about 20,000 people, with no casualties. This was made possible thanks
-          to our improved understanding of how volcanoes work and new advances
-          in volcano monitoring.<br />
+          From Preston, even on a cloudy day you are able to see the most
+          southern mountains at the end of the valley. The traffic lights
+          leading south into Wellsville, Utah resemble ant trails traveling into
+          the ant hill as they move south into Sardine Canyon towards the Great
+          Salt Lake Valley. The view is so clear on summer nights that the
+          serene lights from the Logan Temple can only be trumped by the
+          plethora of celestial stars that watch over the Great City of Preston
+          and the lower end of the Valley. <br />Not only is our community
+          unique, but so are our hard working citizens with an unemployment rate
+          mirroring the State of Idaho at 2.90% that is considerably less than
+          the national unemployment rate of 3.70%! This is due in part to
+          diversified light industry and to having a stable and sustainable
+          medical system (which is vital to any growing community) serviced by
+          Franklin County Medical Center, (recently expanded which includes a
+          modern new 15,000 square foot surgical center), that is ranked within
+          the top 100 critical access hospitals within the U.S. and a city that
+          is open to growth and hometown family values. <br />Preston is
+          geographically situated near the Bear River and is the only drainage
+          in SE Idaho and Northern Utah where whitewater activities are
+          available.
           <br />
-          <b
-            >source:https://theconversation.com/the-st-vincent-eruption-is-a-reminder-of-how-volcano-research-and-monitoring-can-save-lives-159362</b
-          >
+          <b>source :https://www.prestonidaho.net/mayor-city-council/</b>
         </p>
       </article>
       <div class="content">
@@ -160,13 +228,13 @@
       </p>
       <p>Last modified: <span id="modifiedTime"></span></p>
     </footer>
-    <script src="hjs/preston.js" defer></script>
+    <script src="js/preston.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({ google: { families: ["Roboto"] } });
     </script>
-    <script src="hjs/windchill.js" defer></script>
-    <script src="hjs/visitdays.js" defer></script>
-    <script src="hjs/json.js" defer></script>
+    <script src="js/windchill.js" defer></script>
+    <script src="js/visitdays.js" defer></script>
+    <script src="js/prestonapi.js" defer></script>
   </body>
 </html>
