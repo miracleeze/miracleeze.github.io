@@ -32,12 +32,40 @@
   .contentfore {
     display: block;
   }
+  #openweatherMap {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 10px;
+  }
   .content-img {
     max-width: 70rem;
     height: 300px;
   }
   .forecast {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    max-width: 40rem;
+    border: 2px solid #333;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .fore-temp {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .week-day {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .weather-icon {
+    margin-left: auto;
+    margin-left: auto;
   }
   .article {
     max-width: 48rem;
