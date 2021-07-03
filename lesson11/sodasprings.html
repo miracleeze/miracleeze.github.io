@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Preston page for weather site project Miracle Eze | WDD230"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>BlueSky Day | Soda Springs Idaho</title>
+  </head>
+  <body>
+    <div class="banner">
+      <p>
+        Preston Pancakes in the Park! <br />
+        9:00 A.M. Saturday at the city park Pavilion.
+      </p>
+    </div>
+    <header>
+      <div>
+        <img src="Images/image_logo.jpg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>BlueSky Day</h1>
+        <div id="motto">Hello Sunshine!</div>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="/lesson9/index.html">Home</a></li>
+        <li>
+          <a href="preston-10.html">Preston</a>
+        </li>
+        <li><a href="sodasprings.html" class="active">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Soda Springs Idaho</h2>
+      <div class="contentbox">
+        <picture>
+          <source
+            media="(max-width: 200px)"
+            srcset="Images/pexels-pixabay-75x36.jpg"
+          />
+          <source
+            media="(max-width: 400px)"
+            srcset="Images/pexels-pixabay-150x73.jpg"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="Images/pexels-pixabay-225x109.jpg"
+          />
+          <img
+            class="content-img"
+            src="Images/pexels-pixabay-900x437.jpg"
+            alt="rising sun on skyblue"
+          />
+        </picture>
+        <section class="sum">
+          <h3>Weather Summary</h3>
+          <ul class="sum1">
+            <li>Currently:</li>
+            <li>High:</li>
+            <li>Wind Chill:</li>
+            <li>Humidity:</li>
+            <li>Wind Speed:</li>
+          </ul>
+          <ul class="sum2">
+            <li><span id="description"></span></li>
+            <li><span class="temp"></span> ℉</li>
+            <li><span class="windchill"></span>N/A</li>
+            <li><span class="humidity"></span>&percnt;</li>
+            <li><span class="windspeed"></span> mph</li>
+          </ul>
+        </section>
+      </div>
+      <h3 class="contentfore">
+        5 Days Forecast <br />
+        <span id="openweatherMap"
+          >(Weather information proovided by
+          <a href="https://openweathermap.org/">OpenWeatherMap)</a></span
+        >
+      </h3>
+      <div class="forecast"></div>
+      <article class="article">
+        <img
+          src="Images/pexels-irina-iriser-300x226.jpg"
+          alt="mountains and cloud"
+        />
+        <h3>An Except from the Mayor Welcoming Message</h3>
+        <div class="article1">By Dan Keller.</div>
+        <p>
+          From Preston, even on a cloudy day you are able to see the most
+          southern mountains at the end of the valley. The traffic lights
+          leading south into Wellsville, Utah resemble ant trails traveling into
+          the ant hill as they move south into Sardine Canyon towards the Great
+          Salt Lake Valley. The view is so clear on summer nights that the
+          serene lights from the Logan Temple can only be trumped by the
+          plethora of celestial stars that watch over the Great City of Preston
+          and the lower end of the Valley. <br />Not only is our community
+          unique, but so are our hard working citizens with an unemployment rate
+          mirroring the State of Idaho at 2.90% that is considerably less than
+          the national unemployment rate of 3.70%! This is due in part to
+          diversified light industry and to having a stable and sustainable
+          medical system (which is vital to any growing community) serviced by
+          Franklin County Medical Center, (recently expanded which includes a
+          modern new 15,000 square foot surgical center), that is ranked within
+          the top 100 critical access hospitals within the U.S. and a city that
+          is open to growth and hometown family values. <br />Preston is
+          geographically situated near the Bear River and is the only drainage
+          in SE Idaho and Northern Utah where whitewater activities are
+          available.
+          <br />
+          <b>source :https://www.prestonidaho.net/mayor-city-council/</b>
+        </p>
+      </article>
+      <section class="event-info">
+        <h2>Events Happening Around You:</h2>
+        <div id="sodaevents"></div>
+      </section>
+      <div class="content">
+        <div class="map-image">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.912989829936!2d-111.62379163585518!3d42.661470635317784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276%2C%20USA!5e0!3m2!1sen!2sgh!4v1625267051173!5m2!1sen!2sgh"
+            width="320"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div>
+          <div class="location-image">
+            <ul>
+              <li><b>BlueSky Day</b></li>
+              <li>
+                <img src="Images/locationicon.png" alt="location Icon" />
+                30 N 1st E
+              </li>
+              <li>Preston, ID 82363</li>
+              <li></li>
+              <li>&phone; (233) 055-5223-235</li>
+              <li>&#9993; blueskyday@outlook.com</li>
+            </ul>
+          </div>
+          <div class="social-media">
+            <a
+              href="https://www.facebook.com/places/Things-to-do-in-Preston-Idaho/109383655754042/"
+              target="_blank"
+              ><img
+                src="Images/facebook.png"
+                alt="Facebook Icon"
+                height="40"
+                width="40"
+            /></a>
+            <a href="https://www.twitter.com/PrestonIdaho/" target="_blank"
+              ><img
+                src="Images/twitter.png"
+                alt="twitter Icon"
+                height="40"
+                width="40"
+            /></a>
+            <a href="https://www.instagram.com/idahopreston/" target="_blank"
+              ><img
+                src="Images/instagram.png"
+                alt="instagram Icon"
+                height="40"
+                width="40"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Last visit : <span class="lastvisit"></span></p>
+      <p>
+        &copy; <span id="currentYear"></span> | Miracle Eze | Accra |
+        <a href="../index.html">Assignment Portal</a> |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYU-Idaho Online Learning</a
+        >
+      </p>
+      <p>Last modified: <span id="modifiedTime"></span></p>
+    </footer>
+    <script src="js/preston.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+    <script src="js/windchill.js" defer></script>
+    <script src="js/visitdays.js" defer></script>
+    <script src="js/sodaspringsapi.js" defer></script>
+    <script src="js/sodaevents.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+@media only screen and (min-width: 45em) {
+  nav button {
+    display: none;
+  }
+  nav {
+    display: flex;
+  }
+  nav ul.hide {
+    display: block;
+    flex: 1 1 100%;
+  }
+  nav ul li {
+    float: left;
+  }
+  .clearfix ul li a {
+    border-right: 1px solid black;
+    padding: 0.5rem 1.7rem;
+  }
+  .contentbox {
+    max-width: 70rem;
+    max-height: 300px;
+    margin-bottom: 5rem;
+  }
+  .sum {
+    left: 5rem;
+    margin-top: -14rem;
+    max-width: 20rem;
+    height: 200px;
+    margin-bottom: 7rem;
+  }
+  .sum1,
+  .sum2 {
+    font-size: 15px;
+  }
+  .contentfore {
+    display: block;
+  }
+  #openweatherMap {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 10px;
+  }
+  .content-img {
+    max-width: 70rem;
+    height: 300px;
+  }
+  .forecast {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    max-width: 40rem;
+    border: 2px solid #333;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .fore-temp {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .week-day {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .weather-icon {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .article {
+    max-width: 48rem;
+  }
+  .article h3 {
+    margin-top: 0;
+  }
+  .article img {
+    float: right;
+    margin: 0.5rem;
+  }
+  .map-image {
+    display: block;
+    width: 320px;
+    border: 1px solid #333;
+    margin-top: 0.8rem;
+    margin-left: -4.5rem;
+  }
+  .social-media {
+    margin-top: -0.5rem;
+    margin-left: 2rem;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 35rem;
+  }
+  .location-image {
+    padding: 1rem 0 0 1rem;
+    margin-right: -3rem;
+  }
+
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 70em;
+  }
+  .banner {
+    margin-bottom: 0;
+  }
+}
