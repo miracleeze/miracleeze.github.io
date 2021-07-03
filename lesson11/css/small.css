@@ -216,8 +216,8 @@ p {
 .article1 {
   font-style: italic;
   text-align: center;
-  letter-spacing: 2px;
-  line-height: 40px;
+  letter-spacing: 5px;
+  line-height: 24px;
 }
 .content,
 ul {
