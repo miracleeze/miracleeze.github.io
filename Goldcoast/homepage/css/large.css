@@ -2,4 +2,11 @@
   .content-img {
     max-width: 1900px;
   }
+  .inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #f8f8ff;
+  }
 }
