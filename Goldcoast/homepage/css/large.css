@@ -1,6 +1,8 @@
 @media only screen and (min-width: 80em) {
   .content-img {
-    max-width: 1900px;
+    width: 100%;
+    max-width: 90em;
+    align-items: center;
   }
   .inner_header {
     width: 1000px;
@@ -8,5 +10,38 @@
     display: block;
     margin: 0 auto;
     background-color: #f8f8ff;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #010203;
+    font-family: "El Messiri", sans-serif;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 80px;
+  }
+  .topnav a {
+    color: #daa520;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .topnav li {
+    list-style: none;
+  }
+  .topnav a:hover {
+    background-color: #003153;
+    color: #f8f8ff;
+  }
+  .topnav a.active {
+    background-color: goldenrod;
+    color: ghostwhite;
   }
 }
