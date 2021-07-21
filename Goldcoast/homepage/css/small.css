@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&family=Open+Sans+Condensed:wght@300&display=swap");
+/*landing page styling*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Open + sans-serif + Condensed;
+}
+.mySlides {
+  display: none;
+}
+.content-img {
+  width: 100%;
+  max-width: 35rem;
+}
+/*Slideshow cont*/
+.slideshow-cont {
+  max-width: 1900px;
+  position: relative;
+  margin: auto;
+}
+/*Caption text*/
+.text {
+  font-size: 20px;
+  padding: 10px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+/* Number text */
+.numbertext {
+  color: black;
+  font-size: 20px;
+  padding: 10px 12px;
+  position: absolute;
+  top: 0;
+}
+/* dots/bullets/indicators*/
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+/* fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
