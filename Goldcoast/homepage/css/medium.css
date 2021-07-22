@@ -40,14 +40,4 @@
   .burger {
     display: none;
   }
-  ul .topnav li {
-    position: absolute;
-    left: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: #f8f8ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
