@@ -41,11 +41,31 @@ nav {
   font-family: "El Messiri", sans-serif;
 }
 
-.topnav {
+ul.topnav {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
-  width: 80px;
+  margin: 199px 0;
+  line-height: 40px;
+  width: 160px;
+}
+body {
+  overflow-x: hidden;
+}
+.topnav {
+  position: absolute;
+  right: 0px;
+  height: 70vh;
+  top: 16vh;
+  background-color: #010203;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(100%);
+  transition: transform 0.5s ease-in;
+}
+.topnav li {
+  opacity: 0;
 }
 .topnav a {
   color: #f8f8ff;
@@ -73,7 +93,12 @@ nav {
 }
 .burger {
   display: block;
+  cursor: pointer;
 }
+nav-active {
+  transform: translate(0%);
+}
+
 .mySlides {
   display: none;
 }
@@ -135,11 +160,29 @@ nav {
     opacity: 1;
   }
 }
-@keyframes fade {
+@keyframes Fade {
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
   }
+}
+@keyframes topnavFade {
+  from {
+    opacity: 0;
+    transform: translate(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg transform);
+}
+.toggle .line2 {
+}
+.toggle .line3 {
 }
