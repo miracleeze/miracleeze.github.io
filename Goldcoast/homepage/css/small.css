@@ -10,7 +10,7 @@ body {
   background-color: #91a3b0;
 }
 .header {
-  width: 100%;
+  width: 50px;
   height: 120px;
   display: block;
   background-color: #003153;
@@ -48,7 +48,7 @@ nav {
   width: 80px;
 }
 .topnav a {
-  color: #daa520;
+  color: #f8f8ff;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -59,13 +59,18 @@ nav {
 }
 .topnav a:hover {
   background-color: #003153;
-  color: #f8f8ff;
+  color: #daa520;
 }
 .topnav a.active {
   background-color: goldenrod;
   color: ghostwhite;
 }
-
+.burger div {
+  width: 25px;
+  height: 5px;
+  background-color: #f8f8ff;
+  margin: 5px;
+}
 .mySlides {
   display: none;
 }

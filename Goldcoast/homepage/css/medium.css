@@ -1,8 +1,7 @@
 @media only screen and (min-width: 45em) {
   .content-img {
     width: 100%;
-    max-width: 60em;
-    align-items: center;
+    max-width: 90em;
   }
   .header {
     width: 100%;
@@ -16,5 +15,39 @@
     display: block;
     margin: 0 auto;
     background-color: #f8f8ff;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: #010203;
+    font-family: "El Messiri", sans-serif;
+  }
+
+  ul.topnav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 1000%;
+  }
+  .topnav a {
+    color: #f8f8ff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .burger {
+    display: none;
+  }
+  ul .topnav li {
+    position: absolute;
+    left: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

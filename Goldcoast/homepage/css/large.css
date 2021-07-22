@@ -5,7 +5,7 @@
     align-items: center;
   }
   .inner_header {
-    width: 1000px;
+    width: 500px;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -14,20 +14,19 @@
   nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     min-height: 8vh;
     background-color: #010203;
     font-family: "El Messiri", sans-serif;
   }
 
-  .topnav {
+  ul.topnav {
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    width: 80px;
+    width: 1080%;
   }
   .topnav a {
-    color: #daa520;
+    color: #f8f8ff;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -38,10 +37,13 @@
   }
   .topnav a:hover {
     background-color: #003153;
-    color: #f8f8ff;
+    color: #daa520;
   }
   .topnav a.active {
     background-color: goldenrod;
     color: ghostwhite;
+  }
+  .burger {
+    display: none;
   }
 }
