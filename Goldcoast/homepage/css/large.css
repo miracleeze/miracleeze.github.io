@@ -90,4 +90,20 @@
     font-family: "El Messiri", sans-serif;
     font-size: 15px;
   }
+  .article h3 {
+    text-align: left;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .article {
+    margin: 10px auto;
+    background-color: #cdd4da;
+    max-width: 500px;
+    padding: 1rem 1rem 0 1rem;
+    border: 2px solid #003153;
+    letter-spacing: 0.1px;
+    text-align: justify;
+  }
 }
