@@ -7,7 +7,7 @@
 }
 body {
   font-family: Open + sans-serif + Condensed;
-  background-color: #91a3b0;
+  background-color: #f8f8ff;
 }
 .header {
   width: 50px;
@@ -112,6 +112,13 @@ body {
   }
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .homecards {
+    text-align: center;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
   }
 }
 

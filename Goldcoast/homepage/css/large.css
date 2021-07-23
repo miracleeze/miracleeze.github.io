@@ -57,4 +57,11 @@
     background-color: #f8f8ff;
     margin: 5px;
   }
+  .homecards {
+    text-align: center;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
