@@ -12,34 +12,31 @@
     background-color: #f8f8ff;
   }
   nav {
-    display: flex;
+    display: block;
     justify-content: space-around;
     min-height: 8vh;
     background-color: #010203;
     font-family: "El Messiri", sans-serif;
   }
 
-  ul.topnav {
-    display: flex;
+  ul.nav-links {
+    display: block;
     justify-content: space-around;
     text-decoration: none;
     width: 1080%;
   }
-  .topnav a {
-    color: #f8f8ff;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
+  body {
+    overflow-x: visible;
   }
-  .topnav li {
+
+  .nav-links li {
     list-style: none;
   }
-  .topnav a:hover {
+  .nav-links a:hover {
     background-color: #003153;
     color: #daa520;
   }
-  .topnav a.active {
+  .nav-links a.active {
     background-color: goldenrod;
     color: ghostwhite;
   }

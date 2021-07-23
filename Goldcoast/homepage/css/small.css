@@ -41,18 +41,17 @@ nav {
   font-family: "El Messiri", sans-serif;
 }
 
-ul.topnav {
+ul.nav-links {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
   margin: 199px 0;
   line-height: 40px;
-  width: 160px;
 }
 body {
   overflow-x: hidden;
 }
-.topnav {
+.nav-links {
   position: absolute;
   right: 0px;
   height: 70vh;
@@ -61,27 +60,28 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translate(100%);
+  width: 50%;
+  transform: translateX(100%);
   transition: transform 0.5s ease-in;
 }
-.topnav li {
+.nav-links li {
   opacity: 0;
 }
-.topnav a {
+.nav-links a {
   color: #f8f8ff;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
 }
-.topnav li {
+.nav-links li {
   list-style: none;
 }
-.topnav a:hover {
+.nav-links a:hover {
   background-color: #003153;
   color: #daa520;
 }
-.topnav a.active {
+.nav-links a.active {
   background-color: goldenrod;
   color: ghostwhite;
 }
@@ -90,13 +90,34 @@ body {
   height: 5px;
   background-color: #f8f8ff;
   margin: 5px;
+  transition: all 0.3s ease;
 }
 .burger {
   display: block;
   cursor: pointer;
 }
-nav-active {
-  transform: translate(0%);
+.nav-active {
+  transform: translateX(0%);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .mySlides {
@@ -152,7 +173,7 @@ nav-active {
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@keyframes fade {
   from {
     opacity: 0.4;
   }
@@ -160,29 +181,11 @@ nav-active {
     opacity: 1;
   }
 }
-@keyframes Fade {
+@keyframes fade {
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
   }
-}
-@keyframes topnavFade {
-  from {
-    opacity: 0;
-    transform: translate(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0px);
-  }
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg transform);
-}
-.toggle .line2 {
-}
-.toggle .line3 {
 }

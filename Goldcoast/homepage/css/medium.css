@@ -17,20 +17,20 @@
     background-color: #f8f8ff;
   }
   nav {
-    display: flex;
+    display: block;
     justify-content: space-around;
     min-height: 8vh;
     background-color: #010203;
     font-family: "El Messiri", sans-serif;
   }
 
-  ul.topnav {
-    display: flex;
+  ul.nav-links {
+    display: block;
     justify-content: space-around;
     text-decoration: none;
     width: 1000%;
   }
-  .topnav a {
+  .nav-links a {
     color: #f8f8ff;
     text-decoration: none;
     letter-spacing: 3px;
