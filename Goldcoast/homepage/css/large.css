@@ -106,4 +106,9 @@
     letter-spacing: 0.1px;
     text-align: justify;
   }
+  .cta-section {
+    background-image: url("handshake.jpg");
+    position: relative;
+    overflow: hidden;
+  }
 }
