@@ -57,11 +57,37 @@
     background-color: #f8f8ff;
     margin: 5px;
   }
+  .localbiz h3 {
+    vertical-align: middle;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
   .homecards {
     text-align: center;
     color: #daa520;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
     font-weight: bold;
+  }
+  .localbiz {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+    padding: 1.1rem;
+    padding-top: 40px;
+    background-color: #003153;
+    box-shadow: 0 0 15px 10px darkgrey;
+  }
+  .localbiz img {
+    width: 30%;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 5px 20px darkgrey;
+  }
+  section {
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 15px;
   }
 }
