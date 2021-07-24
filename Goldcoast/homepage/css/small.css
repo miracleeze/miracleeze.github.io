@@ -215,14 +215,14 @@ body {
   }
   form legend {
     color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 0.5rem;
+    margin: 0 5rem;
+    padding: 0 0.4rem;
   }
   form label.top,
   form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #003153;
     font-size: 0.8rem;
   }
   form lebel.top input,
@@ -249,7 +249,7 @@ body {
     color: white;
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 0 0 2rem 8%;
     width: 90%;
     max-width: 20rem;
   }
@@ -258,6 +258,15 @@ body {
   }
   form label.top input:required:valid {
     border-left: green solid 6px;
+  }
+  .form h1 {
+    text-align: justify;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 25px;
+    padding: 0.8rem 5%;
+    margin-bottom: -49px;
+    font-weight: bold;
   }
   .cta-section {
     background-image: url(../images/handshake.jpg);
