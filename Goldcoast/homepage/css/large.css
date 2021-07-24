@@ -181,7 +181,7 @@
     display: none;
     width: 460px;
     height: 180px;
-    background-color: rgb(43, 121, 223);
+    background-color: #002366;
     color: rgb(250, 249, 249);
     margin-bottom: 1rem;
   }
@@ -209,15 +209,16 @@
   }
   .contentfore {
     display: block;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 25px;
   }
   #openweatherMap {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Open Sans",
+      "Helvetica Neue", sans-serif;
     font-size: 10px;
   }
-  .content-img {
-    max-width: 70rem;
-    height: 300px;
-  }
+
   .forecast {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
