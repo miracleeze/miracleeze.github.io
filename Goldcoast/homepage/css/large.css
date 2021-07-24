@@ -95,16 +95,47 @@
     color: #daa520;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
+    margin-top: 15px;
     font-weight: bold;
   }
   .article {
     margin: 10px auto;
     background-color: #cdd4da;
-    max-width: 500px;
+    max-width: 700px;
+    width: 700px;
     padding: 1rem 1rem 0 1rem;
     border: 2px solid #003153;
     letter-spacing: 0.1px;
     text-align: justify;
+  }
+  .articleH {
+    margin: 10px auto;
+    background-color: #cdd4da;
+    max-width: 600px;
+    width: 600px;
+    padding: 1rem 1rem 0 1rem;
+    border: 2px solid #003153;
+    letter-spacing: 0.1px;
+    text-align: justify;
+  }
+  .article p {
+    text-align: justify;
+    color: #003153;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    max-width: 500px;
+    box-shadow: 0 0 30px #777;
+    border: 1px solid #333;
+  }
+  .articlebox {
+    display: flex;
   }
   .cta-section {
     background-image: url(../images/handshake.jpg) center/cover no-repeat;
@@ -115,7 +146,7 @@
     padding: 70px 40px;
     margin-bottom: 100px;
     top: -350px;
-    margin-left: 15px;
+    margin-left: 49px;
   }
   .col-content h2 a {
     list-style: none;
