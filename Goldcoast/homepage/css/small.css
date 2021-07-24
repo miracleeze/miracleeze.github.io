@@ -8,6 +8,7 @@
 body {
   font-family: Open + sans-serif + Condensed;
   background-color: #cdd4da;
+  max-height: 500px;
 }
 .header {
   width: 50px;
