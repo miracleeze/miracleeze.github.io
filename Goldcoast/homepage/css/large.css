@@ -458,13 +458,13 @@
     vertical-align: middle;
     color: #daa520;
     font-family: "El Messiri", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
   }
-  champ p {
+  .champ p {
     text-align: justify;
     color: #003153;
     font-family: "El Messiri", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
   }
 }

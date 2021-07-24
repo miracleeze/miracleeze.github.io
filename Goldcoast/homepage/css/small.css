@@ -485,8 +485,7 @@ body {
     text-align: justify;
     color: #003153;
     font-family: "El Messiri", sans-serif;
-    font-size: 150px;
-    font-weight: bold;
+    font-size: 15px;
   }
   .grid {
     display: grid;
