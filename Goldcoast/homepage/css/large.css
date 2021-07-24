@@ -439,4 +439,19 @@
     margin-bottom: -49px;
     font-weight: bold;
   }
+  /*Directory*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    padding: 1.1rem;
+    padding-top: 40px;
+    background-color: #003153;
+    box-shadow: 0 0 15px 10px darkgrey;
+  }
+  .grid img {
+    width: 30%;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 5px 20px darkgrey;
+  }
 }
