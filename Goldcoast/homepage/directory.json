@@ -1,0 +1,46 @@
+{
+  "companies": [
+    {
+      "name": "ALS Global Shipping & Logistics LTD",
+      "mobile": "0233553782778",
+      "website": "http://www.alsshipping.com/",
+      "imageurl": "https://www.ghanayello.com/img/gh/r/1602093951-40-als-global-shipping-logistics-ltd.jpg"
+    },
+    {
+      "name": "Soul Energy Limited",
+      "mobile": "0233501572592",
+      "website": "https://soulenergy.ltd/",
+      "imageurl": "https://www.ghanayello.com/img/gh/g/1588937541-29-soul-energy-limited.png"
+    },
+    {
+      "name": "Exquisite Woodworks",
+      "mobile": "00233507313813",
+      "website": "http://www.exquisitewoodworksgh.com/",
+      "imageurl": "http://www.exquisitewoodworksgh.com/images/logo.png"
+    },
+    {
+      "name": "The Law Office of Clinton Consultancy",
+      "mobile": "00233272522695",
+      "website": "http://www.clintonconsultancy.com",
+      "imageurl": "https://i0.wp.com/clintonconsultancy.com/wp-content/uploads/2019/04/strategy.jpg?w=960&ssl=1"
+    },
+    {
+      "name": "Elzo Building Construction Company",
+      "mobile": "00233544743993",
+      "website": "https://elzogroup.com/",
+      "imageurl": "https://elzogroup.com/wp-content/uploads/2020/10/Elzo-Logo-main-PNG-1.png"
+    },
+    {
+      "name": "Asanduff Group of Companies",
+      "mobile": "00233208176867",
+      "website": "https://www.asanduff.com/",
+      "imageurl": "https://www.asanduff.com/wp-content/uploads/2015/03/Asanduff-logo2.png"
+    },
+    {
+      "name": "Agro Kings Ltd",
+      "mobile": "023354577349",
+      "website": "https://theagrokings.com/",
+      "imageurl": "https://www.ghanayello.com/img/gh/g/1582206376-22-agro-kings-ltd.png "
+    }
+  ]
+}
