@@ -454,4 +454,11 @@
     margin-bottom: 0.7rem;
     box-shadow: 0 5px 20px darkgrey;
   }
+  .champ h3 {
+    vertical-align: middle;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
