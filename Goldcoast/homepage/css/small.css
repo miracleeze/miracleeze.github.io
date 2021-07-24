@@ -181,6 +181,31 @@ body {
     letter-spacing: 0.1px;
     text-align: justify;
   }
+  .article ul {
+    text-align: left;
+    color: #003153;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    line-height: 20px;
+  }
+  .article h4 {
+    text-align: center;
+    border: none;
+    background-color: #daa520;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 70%;
+    max-width: 20rem;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+  }
+  .article h4 a {
+    text-decoration: none;
+    text-decoration-color: #003153;
+  }
   .cta-section {
     background-image: url(../images/handshake.jpg);
     width: 320px;
