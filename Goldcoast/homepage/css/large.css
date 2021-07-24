@@ -269,6 +269,9 @@
     text-decoration: none;
     color: #002366;
   }
+  .location-image li {
+    list-style: none;
+  }
   .sum {
     position: absolute;
     background: radial-gradient(#87ceeb, #002366);
