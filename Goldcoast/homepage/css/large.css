@@ -107,7 +107,7 @@
     text-align: justify;
   }
   .cta-section {
-    background-image: url(../images/pexelsevent.jpg) center/cover no-repeat;
+    background-image: url(../images/handshake.jpg) center/cover no-repeat;
     width: 320px;
     height: 227px;
     position: relative;
@@ -142,7 +142,32 @@
     z-index: 1;
     position: relative;
     max-width: 500px;
+    border: 1px solid #f8f8ff;
     margin: auto;
     text-align: center;
+  }
+  .cta-section1 {
+    background-color: #003153;
+    width: 320px;
+    height: 227px;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 40px;
+    margin-bottom: 100px;
+    top: -680px;
+    right: -980px;
+  }
+  .col-content1 h2 a {
+    list-style: none;
+    text-decoration: none;
+    font-family: "El Messiri", sans-serif;
+    color: #daa520;
+    margin: 0;
+  }
+  .col-content1 p {
+    text-align: center;
+    color: #c4dad4;
+    line-height: 25px;
+    font-weight: bolder;
   }
 }
