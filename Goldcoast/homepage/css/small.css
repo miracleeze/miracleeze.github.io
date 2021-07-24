@@ -474,6 +474,34 @@ body {
     margin-top: 0.2rem;
     padding-left: 5.5rem;
   }
+  .champ h3 {
+    text-align: center;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .champ p {
+    text-align: justify;
+    color: #003153;
+    font-family: "El Messiri", sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+    padding: 1.1rem;
+    align-content: center;
+    background-color: #003153;
+    box-shadow: 0 0 15px 10px darkgrey;
+  }
+  .grid img {
+    width: 40%;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 5px 20px darkgrey;
+  }
   footer {
     color: #fffaf0;
     background-color: #010203;

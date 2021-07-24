@@ -1,6 +1,6 @@
-const myRequest = new Request("./localdirectory.json");
+const myCompanies = new Request("./homepage/localdirectory.json");
 
-fetch(myRequest)
+fetch(myCompanies)
   .then(function (response) {
     return response.json();
   })
