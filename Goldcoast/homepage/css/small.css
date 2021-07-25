@@ -172,6 +172,16 @@ body {
     box-shadow: 0 0 30px #777;
     border: 1px solid #333;
   }
+  .articleH {
+    margin: 10px auto;
+    background-color: #cdd4da;
+    max-width: 600px;
+    width: 400px;
+    padding: 1rem 1rem 0 1rem;
+    border: 1px solid #003153;
+    letter-spacing: 0.1px;
+    text-align: justify;
+  }
   .article {
     margin: 10px auto;
     background-color: #cdd4da;
