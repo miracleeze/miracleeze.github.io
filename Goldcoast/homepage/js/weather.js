@@ -28,7 +28,10 @@ fetch(apiForecastURL)
         weekDay.setAttribute("class", "week-day");
         let dayOfWeek = new Date(forecast.list[i].dt_txt);
         let dayNum = dayOfWeek.getDay();
-        let weekdays = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday"];
+        let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
+
+        weekDay.textContent = weekdays[dayNum];
+        dayBox.appendChild(weekDay);
 
         let forecastIcon = document.createElement("img");
         const imagesrc =
