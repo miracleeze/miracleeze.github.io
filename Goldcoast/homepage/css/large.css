@@ -419,8 +419,10 @@
     background-color: #9c2c13;
     color: white;
     border-radius: 1rem;
-    padding: 0.75rem 1.5rem;
-    margin: 0 0 2rem 8%;
+    padding: 0.77rem 1.4rem;
+    margin: 0 0 3rem 5%;
+    margin-top: 20px;
+    margin-bottom: 5px;
     width: 90%;
     max-width: 20rem;
   }
@@ -466,5 +468,28 @@
     color: #003153;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
+  }
+  .content1 {
+    max-width: 50%;
+    height: 224px;
+    background-color: #fffaf0;
+    border: 1px solid black;
+    margin-bottom: 250px;
+    margin-top: -420px;
+    margin-left: 603px;
+  }
+
+  .location-image1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 27rem;
+    margin-top: -12rem;
+    width: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: #002366;
+  }
+  .location-image1 li {
+    list-style: none;
   }
 }

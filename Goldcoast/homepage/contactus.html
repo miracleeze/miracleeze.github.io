@@ -8,7 +8,7 @@
       name="description"
       content="Completed Membership Form for Goldcoast Chamber of commerce site project Miracle Eze | WDD230"
     />
-    <link rel="stylesheet" href="./homepage/css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,16 +16,16 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Open+Sans+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./homepage/css/small.css" />
-    <link rel="stylesheet" href="./homepage/css/medium.css" />
-    <link rel="stylesheet" href="./homepage/css/large.css" />
-    <title>GoldCoast Chamber of Commerce|Membership Form</title>
+    <link rel="stylesheet" href="./css/small.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
+    <title>GoldCoast Chamber of Commerce|Contact Us</title>
   </head>
   <body>
     <div class="header">
       <div class="inner_header">
         <div class="logo_container">
-          <img src="./homepage/images/GoldCoast logo.png" alt="Site Logo" />
+          <img src="./images/GoldCoast logo.png" alt="Site Logo" />
         </div>
       </div>
     </div>
@@ -35,8 +35,8 @@
         <li><a href="./city.html">City</a></li>
         <li><a href="./membership.html">Membership</a></li>
         <li><a href="./directory.html">Directory</a></li>
-        <li><a href="application.html" class="active">Join Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="../application.html">Join Us</a></li>
+        <li><a href="contactus.html" class="active">Contact Us</a></li>
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -46,7 +46,7 @@
     </nav>
     <main>
       <div class="form">
-        <h1>Member Application</h1>
+        <h1>CONTACT US</h1>
       </div>
       <form method="get action=thanks.html">
         <fieldset>
@@ -72,44 +72,29 @@
               required
           /></label>
           <label class="top">
-            Website <input type="url" name="url" placeholder="http://"
+            Comments <input type="text" name="comments"
           /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Business Information</legend>
-          <label class="top"
-            >Company Name* <input type="text" name="fname" required
-          /></label>
-          <label class="top">
-            Phone*
-            <input type="tel" name="phone" placeholder="1235551234" required />
-          </label>
-          <label class="top">
-            Website <input type="url" name="url" placeholder="http://"
-          /></label>
-          <label class="top">
-            Business Description (200 Char Max)
-            <input type="text" name="bdescription"
-          /></label>
-          <label class="top">
-            Business Address <input type="text" name="baddress" />
-          </label>
-        </fieldset>
-        <fieldset>
-          <legend>Membership Level</legend>
-          <label class="top"
-            >Level & Annual Fees
-            <select name="subject">
-              <option value="">Please Select &#9662;</option>
-              <option value="price">Non-profit ($100)</option>
-              <option value="price">Bronze ($200)</option>
-              <option value="info">Silver ($400)</option>
-              <option value="price">Gold ($1000)</option>
-            </select></label
-          >
-          <input type="submit" value="Submit Application" class="submitBtn" />
+          <input type="submit" value="SEND" class="submitBtn" />
         </fieldset>
       </form>
+      <div class="content1">
+        <div class="map-image">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.073540184365!2d-0.20264188590849283!3d5.556117535194913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf917033a0fb87%3A0xc37f35d365e7908a!2sGhana%20National%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2sgh!4v1627172582595!5m2!1sen!2sgh" width="320" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+          <div class="location-image1">
+            <ul>
+              <li><b>GoldCoast Chamber of Commerce</b></li>
+              <li>
+                <img src="images/locationicon.png" alt="location Icon" />
+                 1st Floor, World Trade Center 
+              </li>
+              <li>  Accra, GA 00233</li>
+              <li>www.goldcoastblog.gh</li>
+              <li>&phone; (233) 055-5223-235</li>
+              <li>&#9993; goldcoast@outlook.org</li>
+            </ul>
+          </div>
     </main>
     <footer>
       <p>
