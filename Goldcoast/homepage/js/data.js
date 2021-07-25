@@ -1,4 +1,4 @@
-const myCompanies = new Request("./homepage/localdirectory.json");
+const myCompanies = new Request("./homepage/directory.json");
 
 fetch(myCompanies)
   .then(function (response) {
