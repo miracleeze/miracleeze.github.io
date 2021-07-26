@@ -172,6 +172,24 @@ body {
     box-shadow: 0 0 30px #777;
     border: 1px solid #333;
   }
+  .appr {
+    margin: 0 auto;
+    width: 100%;
+    width: 30rem;
+    height: 5rem;
+    text-align: center;
+    color: #002366;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgb(19, 18, 18);
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #daa520;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+  }
   .articleH {
     margin: 10px auto;
     background-color: #cdd4da;
