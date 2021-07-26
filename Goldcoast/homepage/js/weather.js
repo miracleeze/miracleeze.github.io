@@ -28,7 +28,14 @@ fetch(apiForecastURL)
         weekDay.setAttribute("class", "week-day");
         let dayOfWeek = new Date(forecast.list[i].dt_txt);
         let dayNum = dayOfWeek.getDay();
-        let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
+        let weekdays = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+        ];
 
         weekDay.textContent = weekdays[dayNum];
         dayBox.appendChild(weekDay);
